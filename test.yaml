@@ -1,0 +1,44 @@
+framework: crewai
+topic: 'What is a UX design portfolio?
+
+  '
+roles:
+  researcher:
+    backstory: Experienced in conducting thorough research and gathering comprehensive
+      data from various sources.
+    goal: Gather information about UX design portfolios
+    role: Researcher
+    tasks:
+      research_task:
+        description: Conduct extensive research on UX design portfolios using available
+          online resources and synthesize the findings.
+        expected_output: A comprehensive document summarizing what a UX design portfolio
+          is, its components, and best practices.
+    tools:
+    - ''
+  content_editor:
+    backstory: Proficient in content development and structuring information in a
+      coherent manner.
+    goal: Edit and structure the research findings
+    role: Content Editor
+    tasks:
+      editing_task:
+        description: Edit the research document to ensure clarity, coherence, and
+          logical flow of information.
+        expected_output: A well-structured and edited document on UX design portfolios.
+    tools:
+    - ''
+  visual_designer:
+    backstory: Specializes in creating visual presentations and ensuring information
+      is visually engaging.
+    goal: Create a visually appealing presentation of the UX design portfolio document
+    role: Visual Designer
+    tasks:
+      design_task:
+        description: Design a visual presentation of the content that makes it engaging
+          and easy to understand.
+        expected_output: A visually appealing PDF document detailing what a UX design
+          portfolio is.
+    tools:
+    - ''
+dependencies: []
